@@ -1,4 +1,4 @@
-from preprocess_nlp-text import utils
+import utils
 
 __version__ = '0.10.3'
 
