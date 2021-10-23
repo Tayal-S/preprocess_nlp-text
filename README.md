@@ -14,11 +14,11 @@ pip install textblob==0.15.3
 
 Install
 
-`pip install git+https://github.com/laxmimerit/preprocess_kgptalkie.git --upgrade --force-reinstall`
+`pip install git+ssh://git@github.com/Tayal-S/preprocess_nlp-text.git`
 
 Uninstall
 
-`pip uninstall preprocess_kgptalkie`
+`pip uninstall preprocess_nlp-text`
 
 #### How to use it for preprocessing
 You have to have installed spacy and python3 to make it work.
@@ -61,12 +61,4 @@ df['reviews'] = df['reviews'].apply(lambda x: ps.spelling_correction(x).raw_sent
 Note: Avoid to use `make_base` and `spelling_correction` for very large dataset otherwise it might take hours to process.
 
 
-#### Extra
 
-```
-x = 'lllooooovvveeee youuuu'
-x = re.sub("(.)\\1{2,}", "\\1", x)
-print(x)
----
-love you
-```
