@@ -58,7 +58,7 @@ df['reviews'] = df['reviews'].apply(lambda x: ps.make_base(x)) #ran -> run,
 df['reviews'] = df['reviews'].apply(lambda x: ps.spelling_correction(x).raw_sentences[0]) #seplling -> spelling
 ```
 
-Note: Avoid to use `make_base` and `spelling_correction` for very large dataset otherwise it might take hours to process.
+#Note: Avoid to use `make_base` and `spelling_correction` for very large dataset otherwise it might take hours to process.
 
 
 
