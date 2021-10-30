@@ -14,7 +14,7 @@ pip install textblob==0.15.3
 
 Install
 
-`pip install git+ssh://git@github.com/Tayal-S/preprocess_nlp-text.git`
+`pip install git+https://github.com/Tayal-S/preprocess_nlp-text.git --upgrade --force-reinstall`
 
 Uninstall
 
