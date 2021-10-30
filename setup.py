@@ -5,7 +5,7 @@ with open('README.md', 'r') as file:
 
 
 setuptools.setup(
-	name = 'preprocess_nlp_s', #this should be unique
+	name = 'preprocess_stalkie', #this should be unique
 	include_package_data=True,
 	version = '0.1.3',
 	author = 'Shivani tayal',
